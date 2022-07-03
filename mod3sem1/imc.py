@@ -1,3 +1,6 @@
-print("imc")
-imc = 100 / (1.70*1.70)
+print("IMC")
+altura = float(input('Digite sua altura: '))
+peso = float(input('Digite seu peso: '))
+
+imc = peso / (altura*altura)
 print(imc)
